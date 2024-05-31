@@ -1,0 +1,196 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+  width: 150px;
+  text-align: center;
+}
+
+.main {
+  margin-left: 270px !important;
+  padding: 0px 10px;
+}
+
+.page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container{
+  text-align: center;
+  width: 600px;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  width: 423px;
+  background: transparent;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"], input[type="password"], select, input[type="number"], input[type="date"]{
+  margin: auto;
+  height: 59px;
+  width: 100%;
+  background: transparent;
+  font-size: 16px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input:focus, select:focus {
+  outline: none;
+}
+
+select {
+  color: rebeccapurple;
+}
+
+.button, input[type="submit"], input[type="button"], button{
+  height: 57px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  border: 0px;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+.box {
+  background: #f3f3f3;
+  width: 200px;
+  border-radius: 20px;
+  border: 1px solid #454545;
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+table {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+th {
+  height: 50px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  max-width: 200px;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+  max-width: 200px;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+
+.input-box {
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.logo {
+  height: 70px;
+  width: 100%;
+}
+
+.logo img{
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.search-box input, .search-box select {
+  width: auto;
+}
+
+select {
+  color: black;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.results:hover {
+  background-color: #f0f0f0;
+}
+
+.search-car .field {
+  margin-bottom: auto !important;
+  width: auto !important;
+}
